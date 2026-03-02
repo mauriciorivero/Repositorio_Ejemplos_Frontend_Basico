@@ -11,6 +11,16 @@ Coleccion de ejemplos practicos de construccion de sitios y aplicaciones web con
 - [Descripcion general](#descripcion-general)
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Indice de ejemplos](#indice-de-ejemplos)
+  - [Clase 2 — Estructura HTML y Multimedia](2.Clase2/README.md)
+  - [Clase 3 — Formularios HTML](3.Clase3/README.md)
+  - [Clase 4 — Introduccion a CSS](4.Clase4/README.md)
+  - [Clase 5 — Selectores CSS y Modelo de Caja](5.Clase5/README.md)
+  - [Clase 6 — Posicionamiento CSS](6.Clase6/README.md)
+  - [Clase 7A — Flexbox: Catalogo de Productos](7.Clase7_Flex/README.md)
+  - [Clase 7B — Flexbox: Barra de Navegacion](8.clase7_flex_b/README.md)
+  - [Clase 7C — Flexbox: Propiedades Avanzadas](9.clase7_flex_c/README.md)
+  - [Clase 8A — CSS Grid: Layout Avanzado](10.Clase8_Grid/README.md)
+  - [Clase 8B — Tienda Online con Flexbox](10.Clase_8_flex/README.md)
 - [Como usar este repositorio](#como-usar-este-repositorio)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Progresion de aprendizaje](#progresion-de-aprendizaje)
@@ -36,8 +46,8 @@ Repositorio_Ejemplos_Frontend_Basico/
 ├── css/
 │   └── index-styles.css        # Estilos del indice principal
 │
-├── 2.Clase2/                   # Clase 2: Estructura HTML y Multimedia
-│   ├── README.md
+├── 2.Clase2/                   # Clase 2: Estructura HTML y Multimedia → ver README
+│   ├── README.md               ← documentacion: 2.Clase2/README.md
 │   ├── index.html
 │   ├── cancion.html
 │   ├── pelicula.html
@@ -45,58 +55,58 @@ Repositorio_Ejemplos_Frontend_Basico/
 │   ├── img/
 │   └── media/
 │
-├── 3.Clase3/                   # Clase 3: Formularios HTML
-│   ├── README.md
+├── 3.Clase3/                   # Clase 3: Formularios HTML → ver README
+│   ├── README.md               ← documentacion: 3.Clase3/README.md
 │   └── index.html
 │
-├── 4.Clase4/                   # Clase 4: Introduccion a CSS
-│   ├── README.md
+├── 4.Clase4/                   # Clase 4: Introduccion a CSS → ver README
+│   ├── README.md               ← documentacion: 4.Clase4/README.md
 │   ├── index.html
 │   ├── contacto.html
 │   └── css/
 │       └── styles.css
 │
-├── 5.Clase5/                   # Clase 5: Selectores CSS y Modelo de Caja
-│   ├── README.md
+├── 5.Clase5/                   # Clase 5: Selectores CSS y Modelo de Caja → ver README
+│   ├── README.md               ← documentacion: 5.Clase5/README.md
 │   ├── index.html
 │   ├── css/
 │   │   └── styles-app.css
 │   └── img/
 │
-├── 6.Clase6/                   # Clase 6: Posicionamiento CSS
-│   ├── README.md
+├── 6.Clase6/                   # Clase 6: Posicionamiento CSS → ver README
+│   ├── README.md               ← documentacion: 6.Clase6/README.md
 │   ├── index.html
 │   └── css/
 │       └── styles.css
 │
-├── 7.Clase7_Flex/              # Clase 7A: Flexbox - Catalogo de Productos
-│   ├── README.md
+├── 7.Clase7_Flex/              # Clase 7A: Flexbox - Catalogo de Productos → ver README
+│   ├── README.md               ← documentacion: 7.Clase7_Flex/README.md
 │   ├── index.html
 │   ├── css/
 │   │   └── styles.css
 │   └── img/
 │
-├── 8.clase7_flex_b/            # Clase 7B: Flexbox - Barra de Navegacion
-│   ├── README.md
+├── 8.clase7_flex_b/            # Clase 7B: Flexbox - Barra de Navegacion → ver README
+│   ├── README.md               ← documentacion: 8.clase7_flex_b/README.md
 │   ├── index.html
 │   ├── css/
 │   │   └── styles.css
 │   └── img/
 │
-├── 9.clase7_flex_c/            # Clase 7C: Flexbox - Propiedades Avanzadas
-│   ├── README.md
+├── 9.clase7_flex_c/            # Clase 7C: Flexbox - Propiedades Avanzadas → ver README
+│   ├── README.md               ← documentacion: 9.clase7_flex_c/README.md
 │   ├── index.html
 │   └── css/
 │       └── styles.css
 │
-├── 10.Clase8_Grid/             # Clase 8A: CSS Grid - Layout Avanzado
-│   ├── README.md
+├── 10.Clase8_Grid/             # Clase 8A: CSS Grid - Layout Avanzado → ver README
+│   ├── README.md               ← documentacion: 10.Clase8_Grid/README.md
 │   ├── index.html
 │   └── css/
 │       └── styles.css
 │
-└── 10.Clase_8_flex/            # Clase 8B: Proyecto Tienda Online
-    ├── README.md
+└── 10.Clase_8_flex/            # Clase 8B: Proyecto Tienda Online → ver README
+    ├── README.md               ← documentacion: 10.Clase_8_flex/README.md
     ├── index.html
     ├── css/
     │   └── styles.css
@@ -110,7 +120,7 @@ Repositorio_Ejemplos_Frontend_Basico/
 ### Nivel 1 — Estructura HTML y Contenido
 
 #### Clase 2 — Estructura HTML y Multimedia
-**Carpeta:** `2.Clase2/`
+**Carpeta:** [`2.Clase2/`](2.Clase2/README.md)
 
 Sitio web multipagina con tres vistas: pagina principal, pagina de audio y pagina de video. Introduce la estructura semantica de HTML5 y elementos multimedia.
 
@@ -122,10 +132,12 @@ Sitio web multipagina con tres vistas: pagina principal, pagina de audio y pagin
 
 **Conceptos:** estructura semantica, `<table>`, `<audio>`, `<video>`, inputs, navegacion entre paginas
 
+> Documentacion completa: [2.Clase2/README.md](2.Clase2/README.md)
+
 ---
 
 #### Clase 3 — Formularios HTML
-**Carpeta:** `3.Clase3/`
+**Carpeta:** [`3.Clase3/`](3.Clase3/README.md)
 
 Formulario de registro completo con todos los tipos de campos de entrada disponibles en HTML5.
 
@@ -135,12 +147,14 @@ Formulario de registro completo con todos los tipos de campos de entrada disponi
 
 **Conceptos:** `<form>`, `<select>`, `<input>` (todos los tipos), `<label>`, `required`, `placeholder`, validacion HTML5
 
+> Documentacion completa: [3.Clase3/README.md](3.Clase3/README.md)
+
 ---
 
 ### Nivel 2 — CSS: Fundamentos y Selectores
 
 #### Clase 4 — Introduccion a CSS
-**Carpeta:** `4.Clase4/`
+**Carpeta:** [`4.Clase4/`](4.Clase4/README.md)
 
 Demostracion de las tres formas de aplicar CSS (externo, interno e inline) y como funciona la cascada cuando hay conflicto de estilos.
 
@@ -152,10 +166,12 @@ Demostracion de las tres formas de aplicar CSS (externo, interno e inline) y com
 
 **Conceptos:** CSS externo, CSS interno, selectores de elemento, selectores de clase, cascada, especificidad, `font-family`, `font-size`, `color`, `width`
 
+> Documentacion completa: [4.Clase4/README.md](4.Clase4/README.md)
+
 ---
 
 #### Clase 5 — Selectores CSS y Modelo de Caja
-**Carpeta:** `5.Clase5/`
+**Carpeta:** [`5.Clase5/`](5.Clase5/README.md)
 
 Pagina de articulo de noticias que demuestra selectores avanzados y propiedades del modelo de caja.
 
@@ -166,10 +182,12 @@ Pagina de articulo de noticias que demuestra selectores avanzados y propiedades 
 
 **Conceptos:** selector hijo directo (`>`), `padding`, `margin`, `width`, `border-left`, `box-shadow`, `border-radius`, `font-weight`, elemento `<span>`
 
+> Documentacion completa: [5.Clase5/README.md](5.Clase5/README.md)
+
 ---
 
 #### Clase 6 — Posicionamiento CSS
-**Carpeta:** `6.Clase6/`
+**Carpeta:** [`6.Clase6/`](6.Clase6/README.md)
 
 Pagina con contenido largo que demuestra el efecto de `position: fixed` para un header que permanece visible durante el scroll.
 
@@ -180,12 +198,14 @@ Pagina con contenido largo que demuestra el efecto de `position: fixed` para un 
 
 **Conceptos:** `position: fixed`, `width: 100%`, `z-index`, compensacion con `padding-top`, selector descendiente
 
+> Documentacion completa: [6.Clase6/README.md](6.Clase6/README.md)
+
 ---
 
 ### Nivel 3 — CSS Flexbox
 
 #### Clase 7A — Flexbox: Catalogo de Productos
-**Carpeta:** `7.Clase7_Flex/`
+**Carpeta:** [`7.Clase7_Flex/`](7.Clase7_Flex/README.md)
 
 Catalogo de tarjetas de producto con layout responsive usando `flex-wrap`. Cada tarjeta es un contenedor flex vertical con badge de descuento posicionado absolutamente.
 
@@ -196,10 +216,12 @@ Catalogo de tarjetas de producto con layout responsive usando `flex-wrap`. Cada 
 
 **Conceptos:** `display: flex`, `flex-wrap: wrap`, `flex-direction: column`, `justify-content`, `align-items`, `gap`, `position: absolute`, `transform: rotate()`
 
+> Documentacion completa: [7.Clase7_Flex/README.md](7.Clase7_Flex/README.md)
+
 ---
 
 #### Clase 7B — Flexbox: Barra de Navegacion tipo LinkedIn
-**Carpeta:** `8.clase7_flex_b/`
+**Carpeta:** [`8.clase7_flex_b/`](8.clase7_flex_b/README.md)
 
 Replica del header de LinkedIn que demuestra Flexbox anidado: un contenedor principal que separa logo+busqueda del menu de navegacion.
 
@@ -210,10 +232,12 @@ Replica del header de LinkedIn que demuestra Flexbox anidado: un contenedor prin
 
 **Conceptos:** Flexbox anidado, `justify-content: space-between`, `flex-direction: column` (iconos con texto), unidades `vh` y `vw`, `border-radius`, `outline: none`
 
+> Documentacion completa: [8.clase7_flex_b/README.md](8.clase7_flex_b/README.md)
+
 ---
 
 #### Clase 7C — Flexbox: Propiedades Avanzadas
-**Carpeta:** `9.clase7_flex_c/`
+**Carpeta:** [`9.clase7_flex_c/`](9.clase7_flex_c/README.md)
 
 Ejemplo minimalista de 4 cajas que demuestra propiedades avanzadas de Flexbox: inversion del orden y alineacion individual de elementos.
 
@@ -224,12 +248,14 @@ Ejemplo minimalista de 4 cajas que demuestra propiedades avanzadas de Flexbox: i
 
 **Conceptos:** `flex-direction: column-reverse`, `align-self`, selector `:nth-child()`, alineacion individual vs alineacion del contenedor
 
+> Documentacion completa: [9.clase7_flex_c/README.md](9.clase7_flex_c/README.md)
+
 ---
 
 ### Nivel 4 — CSS Grid y Proyectos Completos
 
 #### Clase 8A — CSS Grid: Layout Avanzado
-**Carpeta:** `10.Clase8_Grid/`
+**Carpeta:** [`10.Clase8_Grid/`](10.Clase8_Grid/README.md)
 
 Grid de 7 elementos con celdas de diferentes tamanos usando `span`. Combina Grid para el layout externo con Flexbox para el contenido interno. Incluye un efecto visual de rotacion.
 
@@ -240,10 +266,12 @@ Grid de 7 elementos con celdas de diferentes tamanos usando `span`. Combina Grid
 
 **Conceptos:** `display: grid`, `grid-template-columns`, `grid-template-rows`, `grid-row: span`, `grid-column: span`, `column-gap`, `row-gap`, `transform: rotate()`, Grid + Flexbox combinados
 
+> Documentacion completa: [10.Clase8_Grid/README.md](10.Clase8_Grid/README.md)
+
 ---
 
 #### Clase 8B — Tienda Online con Flexbox
-**Carpeta:** `10.Clase_8_flex/`
+**Carpeta:** [`10.Clase_8_flex/`](10.Clase_8_flex/README.md)
 
 Proyecto completo de tienda de juguetes con header de navegacion y galeria de 20 productos. Demuestra la integracion de Google Fonts y un diseno de producto profesional.
 
@@ -253,6 +281,8 @@ Proyecto completo de tienda de juguetes con header de navegacion y galeria de 20
 | `css/styles.css` | Estilos completos con Google Fonts Inter |
 
 **Conceptos:** Google Fonts (`preconnect`, `@import`), `flex-wrap: wrap` para galeria, elemento `<picture>`, unidades `vh`/`vw`, `text-transform: uppercase`, diseno de header con nav
+
+> Documentacion completa: [10.Clase_8_flex/README.md](10.Clase_8_flex/README.md)
 
 ---
 
