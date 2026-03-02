@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Basico - Repositorio de Ejemplos SENA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index-styles.css">
+</head>
+<body>
+
+    <!-- Top App Bar -->
+    <header class="app-bar">
+        <div class="app-bar__brand">
+            <div class="app-bar__logo">FE</div>
+            <div>
+                <div class="app-bar__title">Frontend Basico</div>
+                <div class="app-bar__subtitle">Repositorio de Ejemplos - SENA 2026</div>
+            </div>
+        </div>
+        <div class="app-bar__badge">
+            <span></span>
+            10 Ejemplos
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__eyebrow">Programa de Formacion SENA 2026</div>
+        <h1 class="hero__title">
+            Repositorio de <strong>Ejemplos</strong><br>Frontend Basico
+        </h1>
+        <p class="hero__description">
+            Coleccion de ejemplos practicos de construccion de sitios y aplicaciones web
+            con HTML y CSS, organizados por clase y nivel de complejidad.
+        </p>
+        <div class="hero__stats">
+            <div class="hero__stat">
+                <span class="hero__stat-number">10</span>
+                <span class="hero__stat-label">Ejemplos</span>
+            </div>
+            <div class="hero__divider"></div>
+            <div class="hero__stat">
+                <span class="hero__stat-number">8</span>
+                <span class="hero__stat-label">Clases</span>
+            </div>
+            <div class="hero__divider"></div>
+            <div class="hero__stat">
+                <span class="hero__stat-number">3</span>
+                <span class="hero__stat-label">Temas principales</span>
+            </div>
+            <div class="hero__divider"></div>
+            <div class="hero__stat">
+                <span class="hero__stat-number">HTML + CSS</span>
+                <span class="hero__stat-label">Tecnologias</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <div class="info-banner">
+            <div class="info-banner__icon">i</div>
+            <p class="info-banner__text">
+                <strong>Como usar este repositorio:</strong> Cada tarjeta representa un ejemplo de clase.
+                Haz clic en "Ver ejemplo" para abrir el archivo HTML correspondiente en el navegador.
+                Cada carpeta contiene un archivo README.md con la explicacion detallada del codigo.
+            </p>
+        </div>
+
+        <!-- Section: HTML Estructura -->
+        <div class="section-header">
+            <div class="section-header__label">Nivel 1</div>
+            <h2 class="section-header__title">Estructura HTML y Contenido</h2>
+            <p class="section-header__description">
+                Fundamentos de HTML5: etiquetas semanticas, multimedia, formularios y tablas.
+            </p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Clase 2 -->
+            <article class="card theme-blue">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">C2</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 2</div>
+                        <h3 class="card__title">Estructura HTML y Multimedia</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Sitio web multipagina con navegacion, tabla de datos con inputs,
+                        reproductor de audio y reproductor de video. Introduce la estructura
+                        semantica header, main y footer.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Estructura semantica</span>
+                        <span class="tag">audio / video</span>
+                        <span class="tag">Tablas</span>
+                        <span class="tag">Formularios basicos</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">3 archivos HTML</span>
+                    <a href="2.Clase2/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 3 -->
+            <article class="card theme-green">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">C3</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 3</div>
+                        <h3 class="card__title">Formularios HTML</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Formulario de registro completo con diferentes tipos de campos:
+                        select, text, email, radio buttons y checkboxes. Incluye validacion
+                        HTML5 con el atributo required.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Formularios</span>
+                        <span class="tag">Select</span>
+                        <span class="tag">Radio / Checkbox</span>
+                        <span class="tag">Validacion HTML5</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML</span>
+                    <a href="3.Clase3/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Section: CSS Fundamentos -->
+        <div class="section-header" style="margin-top: 56px;">
+            <div class="section-header__label">Nivel 2</div>
+            <h2 class="section-header__title">CSS: Fundamentos y Selectores</h2>
+            <p class="section-header__description">
+                Introduccion a CSS: tipos de hojas de estilo, selectores, modelo de caja y posicionamiento.
+            </p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Clase 4 -->
+            <article class="card theme-orange">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">C4</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 4</div>
+                        <h3 class="card__title">Introduccion a CSS</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Las tres formas de aplicar CSS: externo, interno e inline.
+                        Demuestra la cascada y especificidad cuando los mismos elementos
+                        son estilizados desde diferentes fuentes.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">CSS externo</span>
+                        <span class="tag">CSS interno</span>
+                        <span class="tag">Selectores de clase</span>
+                        <span class="tag">Cascada</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">2 archivos HTML + 1 CSS</span>
+                    <a href="4.Clase4/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 5 -->
+            <article class="card theme-purple">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">C5</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 5</div>
+                        <h3 class="card__title">Selectores CSS y Modelo de Caja</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Pagina de articulo de noticias que demuestra el selector hijo directo (&gt;),
+                        propiedades de padding, margin, border-left, box-shadow y el elemento
+                        span para estilizar partes del texto.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Selector hijo (&gt;)</span>
+                        <span class="tag">Modelo de caja</span>
+                        <span class="tag">Box-shadow</span>
+                        <span class="tag">Border-radius</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="5.Clase5/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 6 -->
+            <article class="card theme-red">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">C6</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 6</div>
+                        <h3 class="card__title">Posicionamiento CSS</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Demostracion de position: fixed para crear un header que permanece
+                        visible al hacer scroll. Incluye compensacion de contenido con
+                        padding-top para evitar superposicion.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">position: fixed</span>
+                        <span class="tag">Scroll</span>
+                        <span class="tag">z-index</span>
+                        <span class="tag">Padding compensacion</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="6.Clase6/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Section: Flexbox -->
+        <div class="section-header" style="margin-top: 56px;">
+            <div class="section-header__label">Nivel 3</div>
+            <h2 class="section-header__title">CSS Flexbox</h2>
+            <p class="section-header__description">
+                Modulo de diseno flexible para crear layouts adaptables y alinear elementos
+                en una sola dimension (fila o columna).
+            </p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Clase 7 - Flex A -->
+            <article class="card theme-blue">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">7A</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 7 - Parte A</div>
+                        <h3 class="card__title">Flexbox: Catalogo de Productos</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Catalogo de productos usando flex-wrap para crear una grilla responsive.
+                        Las tarjetas de producto son contenedores flex verticales con un badge
+                        de descuento posicionado absolutamente.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">display: flex</span>
+                        <span class="tag">flex-wrap</span>
+                        <span class="tag">flex-direction: column</span>
+                        <span class="tag">position: absolute</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="7.Clase7_Flex/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 7 - Flex B -->
+            <article class="card theme-teal">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">7B</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 7 - Parte B</div>
+                        <h3 class="card__title">Flexbox: Barra de Navegacion</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Replica del header de LinkedIn con Flexbox anidado: logo con barra
+                        de busqueda a la izquierda y menu de navegacion con iconos y texto
+                        a la derecha. Usa unidades viewport (vh, vw).
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Flexbox anidado</span>
+                        <span class="tag">space-between</span>
+                        <span class="tag">Unidades vh / vw</span>
+                        <span class="tag">Barra de busqueda</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="8.clase7_flex_b/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 7 - Flex C -->
+            <article class="card theme-purple">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">7C</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 7 - Parte C</div>
+                        <h3 class="card__title">Flexbox: Propiedades Avanzadas</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Exploracion de propiedades avanzadas de Flexbox: flex-direction:
+                        column-reverse para invertir el orden de los elementos, align-self
+                        para alineacion individual y el selector nth-child().
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">column-reverse</span>
+                        <span class="tag">align-self</span>
+                        <span class="tag">nth-child()</span>
+                        <span class="tag">justify-self</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="9.clase7_flex_c/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Section: Grid & Avanzado -->
+        <div class="section-header" style="margin-top: 56px;">
+            <div class="section-header__label">Nivel 4</div>
+            <h2 class="section-header__title">CSS Grid y Proyectos Completos</h2>
+            <p class="section-header__description">
+                CSS Grid para layouts bidimensionales y proyectos completos que combinan
+                multiples conceptos con Google Fonts y diseno de tienda online.
+            </p>
+        </div>
+
+        <div class="cards-grid">
+
+            <!-- Clase 8 - Grid -->
+            <article class="card theme-red">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">8G</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 8 - Grid</div>
+                        <h3 class="card__title">CSS Grid: Layout Avanzado</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Grid de 7 elementos con celdas que abarcan multiples filas y columnas
+                        usando grid-row: span y grid-column: span. Combina Grid con Flexbox
+                        interno e incluye un efecto de rotacion con transform.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">display: grid</span>
+                        <span class="tag">grid-template-columns</span>
+                        <span class="tag">grid-row: span</span>
+                        <span class="tag">column-gap / row-gap</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS</span>
+                    <a href="10.Clase8_Grid/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+            <!-- Clase 8 - Flex Tienda -->
+            <article class="card theme-green">
+                <div class="card__stripe"></div>
+                <div class="card__header">
+                    <div class="card__icon">8F</div>
+                    <div class="card__meta">
+                        <div class="card__class-label">Clase 8 - Proyecto</div>
+                        <h3 class="card__title">Tienda Online con Flexbox</h3>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__description">
+                        Proyecto completo de tienda de juguetes con header de navegacion,
+                        galeria de 20 productos usando flex-wrap y Google Fonts (Inter).
+                        Demuestra la integracion de fuentes externas y diseno de producto.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Google Fonts</span>
+                        <span class="tag">flex-wrap</span>
+                        <span class="tag">Elemento picture</span>
+                        <span class="tag">Diseno de tienda</span>
+                    </div>
+                </div>
+                <div class="card__footer">
+                    <span class="card__files">1 archivo HTML + 1 CSS + 20 imagenes</span>
+                    <a href="10.Clase_8_flex/index.html" class="card__link">Ver ejemplo</a>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p class="site-footer__text">
+            <strong>Repositorio Frontend Basico</strong> &mdash;
+            Plan de Trabajo 3406211 &middot; SENA 2026<br>
+            Ejemplos de construccion de sitios y aplicaciones web con HTML y CSS
+        </p>
+    </footer>
+
+</body>
+</html>

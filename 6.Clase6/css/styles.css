@@ -1,0 +1,16 @@
+.encabezado-1{
+    background-color: black;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+}
+.encabezado-1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.parrafo1{
+    padding-top: 250px;
+    text-align: center;
+}
