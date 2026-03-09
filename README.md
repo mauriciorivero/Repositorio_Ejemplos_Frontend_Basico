@@ -21,6 +21,11 @@ Coleccion de ejemplos practicos de construccion de sitios y aplicaciones web con
   - [Clase 7C — Flexbox: Propiedades Avanzadas](9.clase7_flex_c/README.md)
   - [Clase 8A — CSS Grid: Layout Avanzado](10.Clase8_Grid/README.md)
   - [Clase 8B — Tienda Online con Flexbox](10.Clase_8_flex/README.md)
+  - [Clase 9 — Fuentes y Tipografia CSS](11.Clase_Fuentes_Tipografia/index.html)
+  - [Clase 10 — Variables CSS y Sistema de Diseno](12.Clase_Variables_CSS/index.html)
+  - [Clase 11 — z-index y Contexto de Apilamiento](13.z-index/index.html)
+  - [Clase 12 — Diseno Responsive con Media Queries](14.MediaQuery/index.html)
+  - [Clase 13 — Selector CSS :has()](15.has_selector/index.html)
 - [Como usar este repositorio](#como-usar-este-repositorio)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Progresion de aprendizaje](#progresion-de-aprendizaje)
@@ -105,9 +110,49 @@ Repositorio_Ejemplos_Frontend_Basico/
 │   └── css/
 │       └── styles.css
 │
-└── 10.Clase_8_flex/            # Clase 8B: Proyecto Tienda Online → ver README
-    ├── README.md               ← documentacion: 10.Clase_8_flex/README.md
+├── 10.Clase_8_flex/            # Clase 8B: Proyecto Tienda Online → ver README
+│   ├── README.md               ← documentacion: 10.Clase_8_flex/README.md
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── img/
+│
+├── 11.Clase_Fuentes_Tipografia/ # Clase 9: Fuentes y Tipografia CSS
+│   ├── index.html
+│   ├── experiencia.html
+│   ├── estudios.html
+│   ├── acerca-de-mi.html
+│   ├── css/
+│   │   └── styles.css
+│   └── assets/
+│
+├── 12.Clase_Variables_CSS/     # Clase 10: Variables CSS y Sistema de Diseno
+│   ├── index.html
+│   ├── experiencia.html
+│   ├── estudios.html
+│   ├── acerca-de-mi.html
+│   ├── css/
+│   │   ├── styles.css
+│   │   ├── design-system-light.css
+│   │   └── design-system-dark.css
+│   └── assets/
+│
+├── 13.z-index/                 # Clase 11: z-index y Contexto de Apilamiento
+│   ├── index.html
+│   └── css/
+│       └── styles-z-index.css
+│
+├── 14.MediaQuery/              # Clase 12: Diseno Responsive con Media Queries
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── img/
+│
+└── 15.has_selector/            # Clase 13: Selector CSS :has()
     ├── index.html
+    ├── Nintendo.html
+    ├── playstation.html
+    ├── xbox.html
     ├── css/
     │   └── styles.css
     └── img/
@@ -286,6 +331,88 @@ Proyecto completo de tienda de juguetes con header de navegacion y galeria de 20
 
 ---
 
+### Nivel 5 — Tipografia y Variables CSS
+
+#### Clase 9 — Fuentes y Tipografia CSS
+**Carpeta:** [`11.Clase_Fuentes_Tipografia/`](11.Clase_Fuentes_Tipografia/index.html)
+
+Portafolio personal multipagina con Google Fonts integradas. Demuestra el uso de tipografia web en el diseno de un sitio de perfil profesional con navegacion entre paginas.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Pagina de inicio con foto de perfil y presentacion |
+| `experiencia.html` | Pagina de experiencia laboral |
+| `estudios.html` | Pagina de formacion academica |
+| `acerca-de-mi.html` | Pagina de informacion personal |
+| `css/styles.css` | Estilos con Google Fonts y tipografia web |
+
+**Conceptos:** Google Fonts (`preconnect`), `font-family`, `font-weight`, `font-size`, `line-height`, estructura multipagina, `<figure>`, `<figcaption>`
+
+---
+
+#### Clase 10 — Variables CSS y Sistema de Diseno
+**Carpeta:** [`12.Clase_Variables_CSS/`](12.Clase_Variables_CSS/index.html)
+
+Extension del portafolio personal aplicando custom properties (variables CSS) para crear un sistema de diseno con temas claro y oscuro. Centraliza colores, tipografia y espaciados en variables reutilizables.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Portafolio usando el sistema de diseno |
+| `css/styles.css` | Estilos principales que consumen las variables |
+| `css/design-system-light.css` | Definicion de variables para tema claro |
+| `css/design-system-dark.css` | Definicion de variables para tema oscuro |
+
+**Conceptos:** `--custom-properties`, `:root`, `var()`, sistemas de diseno, temas claro/oscuro, tokens de diseno (colores, tipografia, espaciado)
+
+---
+
+### Nivel 6 — CSS Avanzado y Selectores Modernos
+
+#### Clase 11 — z-index y Contexto de Apilamiento
+**Carpeta:** [`13.z-index/`](13.z-index/index.html)
+
+Demostracion visual del contexto de apilamiento CSS. Muestra como `z-index` controla la superposicion de elementos dentro de diferentes contextos de apilamiento creados con `position: relative`.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Nueve cajas distribuidas en tres contenedores |
+| `css/styles-z-index.css` | Estilos de posicionamiento y z-index por contenedor |
+
+**Conceptos:** `z-index`, contexto de apilamiento, `position: relative`, superposicion de elementos, jerarquia de capas
+
+---
+
+#### Clase 12 — Diseno Responsive con Media Queries
+**Carpeta:** [`14.MediaQuery/`](14.MediaQuery/index.html)
+
+Tienda de productos responsive que adapta el layout a distintos tamaños de pantalla usando media queries. Integra Google Fonts (Inter), Flexbox y unidades viewport.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Tienda con header y galeria de productos |
+| `css/styles.css` | Layout flex con media queries para breakpoints |
+
+**Conceptos:** `@media`, breakpoints, `min-width`/`max-width`, diseno responsive, Google Fonts (Inter), `flex-wrap`, unidades `vh`/`vw`
+
+---
+
+#### Clase 13 — Selector CSS :has()
+**Carpeta:** [`15.has_selector/`](15.has_selector/index.html)
+
+Sitio multipagina de consolas de videojuegos que demuestra el selector moderno `:has()` para estilizar elementos padre basandose en sus elementos hijo.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Pagina principal con imagen de portada |
+| `Nintendo.html` | Pagina dedicada a Nintendo |
+| `playstation.html` | Pagina dedicada a PlayStation |
+| `xbox.html` | Pagina dedicada a Xbox |
+| `css/styles.css` | Estilos con selector :has() |
+
+**Conceptos:** `:has()`, selectores modernos CSS, estilizar elementos padre segun hijos, CSS nivel 4, Google Fonts (Google Sans), estructura multipagina
+
+---
+
 ## Como usar este repositorio
 
 ### Opcion 1 — Pagina indice (recomendado)
@@ -322,6 +449,9 @@ Cada carpeta tiene un archivo `README.md` con:
 | CSS3 | Estilos, layout y animaciones |
 | CSS Flexbox | Layout unidimensional (Clases 7 y 8B) |
 | CSS Grid | Layout bidimensional (Clase 8A) |
+| CSS Custom Properties | Variables y sistemas de diseno (Clase 10) |
+| CSS Moderno (:has()) | Selectores nivel 4 (Clase 13) |
+| Media Queries | Diseno responsive (Clase 12) |
 | Google Fonts | Tipografias externas (Inter, Google Sans) |
 | Material Design | Guia visual del indice principal |
 
@@ -344,6 +474,11 @@ Tablas           Validacion       Cascada          Box-shadow
                   CSS Grid              Proyecto completo
                   grid-template         Google Fonts
                   span filas/cols       Tienda online
+
+      Clase 9          Clase 10         Clase 11         Clase 12         Clase 13
+      Google Fonts     Variables CSS    z-index          Media Queries    :has()
+      Tipografia       Custom props     Apilamiento      Responsive       CSS moderno
+      Multipagina      Design system    Superposicion    Breakpoints      Selectores padre
 ```
 
 ---
