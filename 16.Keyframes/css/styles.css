@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    align-items: center;
+    background-color: yellow;
+    border: solid 0 5px black;
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    padding: 20 0px;
+    overflow: hidden;
+    width: 100vw;
+}
+
+header > h2{
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow:auto;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 100vw;
+}
+
+main > button{
+    background-color: yellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 5px black;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+}
+
+main > button > h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+main > button:hover{
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 5px yellow;
+}
+
+.circulo{
+    background: conic-gradient(
+        red     0deg,
+        orange  60deg,
+        yellow  120deg,
+        green   180deg,
+        blue    240deg,
+        violet  300deg,
+        red     360deg
+    );
+    border: solid 1px black;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    align-items: center;
+    background-color: yellow;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: absolute;
+    width: 100vw;
+}
+
+footer > h2{
+    animation: vibrar 5s infinite;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
