@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.seccion{
+    height: 60vh;
+    width: 100vw;
+}
+
+@keyframes slideFromRight {
+    from { margin-left: 100vw; }
+    to { margin-left: 0; }
+}
+
+@keyframes slideFromLeft {
+    from { margin-left: -100vw; }
+    to { margin-left: 0; }
+}
+
+.seccion1{
+    background-color: yellow;
+    animation: slideFromRight linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
+
+.seccion2{
+    background-color: blue;
+    animation: slideFromLeft linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
+
+.seccion3{
+    background-color: red;
+    animation: slideFromRight linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
+
+.seccion4{
+    background-color: purple;
+    animation: slideFromLeft linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
+
+.seccion5{
+    background-color: magenta;
+    animation: slideFromRight linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
+
+.seccion6{
+    background-color: black;
+    animation: slideFromLeft linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+}
