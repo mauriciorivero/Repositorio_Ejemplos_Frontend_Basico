@@ -14,16 +14,6 @@ body {
     width: 100vw;
 }
 
-@keyframes slideFromRight {
-    from { margin-left: 100vw; }
-    to { margin-left: 0; }
-}
-
-@keyframes slideFromLeft {
-    from { margin-left: -100vw; }
-    to { margin-left: 0; }
-}
-
 .seccion1{
     background-color: yellow;
     animation: slideFromRight linear both;
@@ -64,4 +54,14 @@ body {
     animation: slideFromLeft linear both;
     animation-timeline: view();
     animation-range: entry 0% entry 50%;
+}
+
+@keyframes slideFromRight {
+    from { margin-left: 100vw; }
+    to { margin-left: 0; }
+}
+
+@keyframes slideFromLeft {
+    from { margin-left: -100vw; }
+    to { margin-left: 0; }
 }

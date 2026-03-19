@@ -8,21 +8,10 @@ body {
     overflow-x: hidden;
 }
 
-@keyframes slide-from-left {
-    from {
-        transform: translateY(-100vw);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 .seccion{
     height: 60vh;
     width: 100vw;
-    animation: slide-from-left linear both;
+    animation: slide-from-top linear both;
     animation-timeline: view();
     animation-range: entry 0% entry 40%;
 }
@@ -49,4 +38,15 @@ body {
 
 .seccion6{
     background-color: black;
+}
+
+@keyframes slide-from-top {
+    from {
+        transform: translateY(-100vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
