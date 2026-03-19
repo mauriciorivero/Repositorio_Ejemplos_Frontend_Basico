@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.seccion-ppal{
+    position: relative;
+    overflow: hidden;
+}
+
+.contenido1{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 400px;
+    width: 280px;
+    mask-image: url('../img/twitter.png');
+    mask-size: 50%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+}
+
+.contenido2{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 400px;
+    width: 280px;
+    mask-image: url('../img/facebook-messenger.png');
+    mask-size: 50%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+}
+
+.contenido3{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 400px;
+    width: 280px;
+    mask-image: url('../img/facebook-messenger.png');
+    mask-size: 50%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+}
