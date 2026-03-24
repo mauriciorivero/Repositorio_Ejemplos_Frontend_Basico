@@ -26,6 +26,11 @@ Coleccion de ejemplos practicos de construccion de sitios y aplicaciones web con
   - [Clase 11 — z-index y Contexto de Apilamiento](13.z-index/index.html)
   - [Clase 12 — Diseno Responsive con Media Queries](14.MediaQuery/index.html)
   - [Clase 13 — Selector CSS :has()](15.has_selector/index.html)
+  - [Clase 16 — Animaciones con @keyframes](16.Keyframes/index.html)
+  - [Clase 17 — Efectos con CSS Mask](17.Mask/mascara.html)
+  - [Clase 18 — Transformaciones 2D/3D](18.Skew/skew.html)
+  - [Clase 19 — Animaciones ligadas al Scroll](19.Scroll/scroll.html)
+  - [Clase 20 — Scroll Animations Avanzadas](20.Scroll2/scroll.html)
 - [Como usar este repositorio](#como-usar-este-repositorio)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Progresion de aprendizaje](#progresion-de-aprendizaje)
@@ -148,14 +153,40 @@ Repositorio_Ejemplos_Frontend_Basico/
 │   │   └── styles.css
 │   └── img/
 │
-└── 15.has_selector/            # Clase 13: Selector CSS :has()
-    ├── index.html
-    ├── Nintendo.html
-    ├── playstation.html
-    ├── xbox.html
-    ├── css/
-    │   └── styles.css
-    └── img/
+├── 15.has_selector/            # Clase 13: Selector CSS :has()
+│   ├── index.html
+│   ├── Nintendo.html
+│   ├── playstation.html
+│   ├── xbox.html
+│   ├── css/
+│   │   └── styles.css
+│   └── img/
+│
+├── 16.Keyframes/               # Clase 16: Animaciones con @keyframes
+│   ├── index.html
+│   └── css/
+│       └── styles.css
+│
+├── 17.Mask/                    # Clase 17: Efectos con CSS Mask
+│   ├── mascara.html
+│   ├── css/
+│   │   └── styles.css
+│   └── img/
+│
+├── 18.Skew/                    # Clase 18: Transformaciones 2D/3D
+│   ├── skew.html
+│   └── css/
+│       └── styles.css
+│
+├── 19.Scroll/                  # Clase 19: Animaciones ligadas al Scroll
+│   ├── scroll.html
+│   └── css/
+│       └── styles.css
+│
+└── 20.Scroll2/                 # Clase 20: Scroll Animations Avanzadas
+    ├── scroll.html
+    └── css/
+        └── styles.css
 ```
 
 ---
@@ -413,6 +444,78 @@ Sitio multipagina de consolas de videojuegos que demuestra el selector moderno `
 
 ---
 
+### Nivel 7 — Animaciones y Efectos Visuales CSS
+
+#### Clase 16 — Animaciones con @keyframes
+**Carpeta:** [`16.Keyframes/`](16.Keyframes/index.html)
+
+Introduccion a animaciones CSS con la regla `@keyframes` y la propiedad `animation`. Incluye ejemplos de rotacion y cambios de estado visual en el tiempo.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `index.html` | Estructura base del ejemplo de animaciones |
+| `css/styles.css` | Definicion de `@keyframes` y propiedades de animacion |
+
+**Conceptos:** `@keyframes`, `animation-name`, `animation-duration`, `animation-iteration-count`, `transform: rotate()`
+
+---
+
+#### Clase 17 — Efectos con CSS Mask
+**Carpeta:** [`17.Mask/`](17.Mask/mascara.html)
+
+Practica de composicion visual con mascaras en CSS para recortar y revelar contenido de forma no rectangular.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `mascara.html` | Estructura de secciones para demostracion de mascara |
+| `css/styles.css` | Efectos visuales con propiedades de mask |
+
+**Conceptos:** `mask-image`, recorte visual, degradados, capas de contenido, efectos CSS modernos
+
+---
+
+#### Clase 18 — Transformaciones 2D/3D
+**Carpeta:** [`18.Skew/`](18.Skew/skew.html)
+
+Ejemplo enfocado en transformaciones CSS para generar dinamismo visual y sensacion de profundidad.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `skew.html` | Estructura con contenedores y elemento transformado |
+| `css/styles.css` | Transformaciones con `skew`, `rotate` y perspectiva |
+
+**Conceptos:** `transform`, `skew()`, rotaciones, `perspective`, efectos 2D/3D
+
+---
+
+#### Clase 19 — Animaciones ligadas al Scroll
+**Carpeta:** [`19.Scroll/`](19.Scroll/scroll.html)
+
+Secciones de pagina con animaciones que se activan durante el desplazamiento del usuario en el viewport.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `scroll.html` | Pagina por secciones para probar scroll animations |
+| `css/styles.css` | Animaciones y estilos activados por scroll |
+
+**Conceptos:** scroll-driven animations, viewport, entrada progresiva de elementos, narrativa visual por secciones
+
+---
+
+#### Clase 20 — Scroll Animations Avanzadas
+**Carpeta:** [`20.Scroll2/`](20.Scroll2/scroll.html)
+
+Extension del modulo de scroll con variantes de animacion para comparar direcciones de entrada y transiciones visuales.
+
+| Archivo | Contenido |
+|---------|-----------|
+| `scroll.html` | Variante avanzada del ejemplo de scroll |
+| `css/styles.css` | Transiciones y animaciones adicionales |
+
+**Conceptos:** `animation-timeline`, `animation-range`, scroll reveal, transiciones avanzadas
+
+---
+
 ## Como usar este repositorio
 
 ### Opcion 1 — Pagina indice (recomendado)
@@ -452,6 +555,10 @@ Cada carpeta tiene un archivo `README.md` con:
 | CSS Custom Properties | Variables y sistemas de diseno (Clase 10) |
 | CSS Moderno (:has()) | Selectores nivel 4 (Clase 13) |
 | Media Queries | Diseno responsive (Clase 12) |
+| CSS Animations | Animaciones con `@keyframes` (Clase 16) |
+| CSS Masking | Efectos de mascara y recorte visual (Clase 17) |
+| CSS Transforms | Transformaciones 2D/3D (Clase 18) |
+| Scroll-driven Animations | Animaciones ligadas al scroll (Clases 19 y 20) |
 | Google Fonts | Tipografias externas (Inter, Google Sans) |
 | Material Design | Guia visual del indice principal |
 
@@ -479,6 +586,16 @@ Tablas           Validacion       Cascada          Box-shadow
       Google Fonts     Variables CSS    z-index          Media Queries    :has()
       Tipografia       Custom props     Apilamiento      Responsive       CSS moderno
       Multipagina      Design system    Superposicion    Breakpoints      Selectores padre
+
+                  Clase 16             Clase 17             Clase 18
+                  @keyframes           CSS Mask             Transform 2D/3D
+                  animation            Recorte visual       skew / rotate
+                  timing               Degradados           perspective
+
+                  Clase 19             Clase 20
+                  Scroll animations    Scroll avanzado
+                  Viewport timeline    animation-timeline
+                  Efectos de entrada   Variantes de transicion
 ```
 
 ---
